@@ -1,0 +1,17 @@
+{
+  "name": "gcf-playground",
+  "version": "1.0.0",
+  "description": "A few examples of using Google Cloud Functions",
+  "main": "index.js",
+  "scripts": {
+    "call": "gcloud beta functions call tryit",
+    "deploy": "gcloud beta functions deploy tryit --stage-bucket el-gato-functions --trigger-http"
+  },
+  "keywords": [],
+  "author": "Justin Beckwith <justin.beckwith@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^19.0.0",
+    "nconf": "^0.8.4"
+  }
+}
