@@ -11,7 +11,7 @@
   "author": "Justin Beckwith <justin.beckwith@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "googleapis": "^19.0.0",
-    "nconf": "^0.8.4"
+    "googleapis": "^25.0.0",
+    "nconf": "^0.10.0"
   }
 }
